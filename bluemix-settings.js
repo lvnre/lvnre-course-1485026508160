@@ -1,3 +1,4 @@
+/*eslint-env node */
 /**
  * Copyright 2014 IBM Corp.
  *
