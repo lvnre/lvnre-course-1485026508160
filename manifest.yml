@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: lvnre-course
+  host: lvnre-course
+  disk_quota: 1024M
+  services:
+  - lvnre-course-cloudantNoSQLDB
+  - lvnre-course-iotf-service
